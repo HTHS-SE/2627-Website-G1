@@ -1,10 +1,10 @@
 
-.body {
+body {
     background-color: #dbdbdb;
-    color: #242018;
 }
-.nav {
-    background-color: #7651ae;
+nav {
+    background: linear-gradient(90deg, #1b2d6b, #4e1d5d);
+    color:#dbdbdb;
 }
 
 .nav-menu-item {
@@ -12,6 +12,7 @@
     font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
+    color:#dbdbdb;
 }
 
 /* Animations */
@@ -28,7 +29,7 @@
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    /*color: #0087ca;*/
+    color: #dbdbdb;
 }
 
 .hover-underline-animation:after {
@@ -40,6 +41,7 @@
     bottom: 0;
     left: 0;
     background-color: #eae6e6;
+    color:#dbdbdb;
     /*transform-origin: bottom right;*/
     transition: transform 0.35s ease-out;
 }
