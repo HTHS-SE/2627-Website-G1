@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Space Grotesk";
-    src: url("assets/SpaceGrotesk-VariableFont_wght.ttf");
+    src: url("assets/text.ttf")
 }
 
-h1 {
+.title {
     font-family: "Space Grotesk";
 }
 
