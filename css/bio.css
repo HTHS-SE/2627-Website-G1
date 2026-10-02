@@ -4,7 +4,7 @@
       180deg,
       rgba(134, 190, 255, 0.317),
       rgba(255, 92, 92, 0.164),
-      rgba(8, 0, 97, 0.578)
+      rgba(4, 0, 44, 0.687)
     ),
     url("../img/bio/hero_bio.png");
     background-position: center;
@@ -17,4 +17,8 @@
     justify-content:flex-end;
     margin-bottom: 10%;
     margin-top: 30%;
+}
+
+.body {
+
 }
