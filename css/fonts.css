@@ -1,8 +1,12 @@
 @font-face {
     font-family: "Space Grotesk";
-    src: url("assets/SpaceGrotesk-VariableFont_wght.ttf");
+    src: url("assets/text.ttf")
 }
 
-h1 {
+.title {
     font-family: "Space Grotesk";
 }
+
+/*began working on font file, add a blobby font for headings 
+and a sharper grotesk font for main text, 
+look on google fonts at home and add*/
