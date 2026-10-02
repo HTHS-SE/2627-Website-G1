@@ -1,12 +1,24 @@
 
 .subheading-font-color {
-    color: #dbdbdb;
+    color: #8d8d8d;
 }
 
 .heading-font-color {
-    color: white;
+    color: rgb(49, 49, 49);
 }
 
 .hero {
-    background-color: black;
+    background-color: rgb(199, 199, 199);
+    text-align: center;
+    padding: 80px 5px 80px 5px;
+}
+
+.subsection {
+    background-color:rgb(49, 49, 49);
+    padding: 80px 5px 80px 5px;
+    color: white;
+}
+
+.text-subsection {
+    padding: 10px 10px 10px 100px;
 }
