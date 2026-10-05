@@ -1,10 +1,11 @@
 @font-face {
-    font-family: "Space Grotesk";
-    src: url("assets/text.ttf")
+    font-family: Space Grotesk;
+    src: url("../assets/Text.ttf");
+
 }
 
 .title {
-    font-family: "Space Grotesk";
+    font-family: Space Grotesk;
 }
 
 /*began working on font file, add a blobby font for headings 
