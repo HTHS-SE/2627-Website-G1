@@ -40,6 +40,10 @@
 }
 
 .text-subsection {
-    padding: 0px 10px 10px 50px;
+    padding: 0 0 10px 50px;
     width: 500px;
+}
+
+p {
+    overflow-wrap: break-word;
 }
