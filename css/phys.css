@@ -4,15 +4,15 @@
 
 .dark-energy {
     color: white;
-    background-color:rgb(4, 0, 44);
+    background-color: rgb(4, 0, 44);
 }
 
 .footer {
-    background-color:rgb(4, 0, 44);
+    background-color: rgb(4, 0, 44);
 }
 
 .gradient {
-    background: linear-gradient(180deg,  #dbdbdb,rgb(4, 0, 44) );
+    background: linear-gradient(180deg, #dbdbdb, rgb(4, 0, 44));
 }
 
 .hero-image {
@@ -24,7 +24,6 @@
         url("../img/phys/hero_phys.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
-
 }
 
 .lower {
@@ -36,6 +35,9 @@
 .neutron {
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 150;
+    background-color: rgb(13, 10, 31);
+    color: white;
 }
 
 
