@@ -1,3 +1,20 @@
+.body {
+    font-family: Space Grotesk;
+}
+
+.dark-energy {
+    color: white;
+    background-color:rgb(4, 0, 44);
+}
+
+.footer {
+    background-color:rgb(4, 0, 44);
+}
+
+.gradient {
+    background: linear-gradient(180deg,  #dbdbdb,rgb(4, 0, 44) );
+}
+
 .hero-image {
     background-image:
         linear-gradient(180deg,
@@ -5,7 +22,6 @@
             rgba(28, 17, 46, 0.381),
             rgba(4, 0, 44, 0.687)),
         url("../img/phys/hero_phys.jpg");
-    background-color: rgb(76, 0, 255);
     background-size: 100% auto;
     background-repeat: no-repeat;
 
@@ -22,17 +38,7 @@
     margin-bottom: 0;
 }
 
-.body {
-    font-family: Space Grotesk;
-}
 
-.gradient {
-    background: linear-gradient(180deg,  #dbdbdb,rgb(4, 0, 44) );
-}
 
-.dark-energy {
-    color: white;
-    background-color:rgb(4, 0, 44);
-}
 
 /* ------------------test------------------ */
