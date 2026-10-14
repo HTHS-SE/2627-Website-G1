@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background: linear-gradient(90deg, #1b2d6b, #4e1d5d);
+    background: linear-gradient(90deg, #071546, #450620);
     color: #dbdbdb;
 }
 
@@ -54,8 +54,10 @@ nav {
 .hero-image {
     background-image:
         linear-gradient(180deg,
-            rgba(158, 134, 255, 0),
-            rgba(4, 0, 44, 0.58)),
+            rgba(9, 0, 45, 0.738),
+            rgba(9, 0, 45, 0.074),
+            rgba(9, 0, 45, 0.056),
+            rgba(249, 96, 96, 0.219)),
         url("../img/main/hero_main.png");
     background-position: center;
     background-color: rgb(63, 0, 210);
@@ -65,10 +67,18 @@ nav {
 .body {
     background-color: rgb(18, 0, 60);
     background-image:
-        linear-gradient(rgba(0, 7, 56, 0.75), 
-        rgba(0, 18, 110, 0.65), 
-        rgba(0, 18, 110, 0.65), 
+        linear-gradient(rgba(0, 6, 46, 0.75), 
+        rgba(12, 0, 64, 0.697), 
+        rgba(64, 0, 32, 0.65), 
         rgba(172, 66, 66, 0.5)), 
         url("../img/main/back.png");
 
+}
+
+.boxy {
+    background-image:
+        linear-gradient(rgba(107, 0, 0, 0.75), 
+        rgba(81, 0, 0, 0.697), 
+        rgba(64, 0, 32, 0.65), 
+        rgba(172, 66, 66, 0.5));
 }
