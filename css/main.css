@@ -1,3 +1,23 @@
+.about {
+    margin: auto;
+    background-color: white;
+    border: 1px solid white;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.about:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 5px rgba(24, 3, 98, 0.425);
+}
+
+.about-team {
+    color: #31183e;
+    background-color: #5b14ab33;
+}
+
+.about-us {
+    background-color: #f0e5f7;
+}
+
 body {
     background-color: #dbdbdb;
 }
