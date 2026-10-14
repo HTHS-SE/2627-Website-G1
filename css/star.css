@@ -1,18 +1,25 @@
 
 .heading-font-color {
-    color: #f7f43c;
+    color: rgb(255, 236, 132);
 }
 
 .subheading-font-color {
-    color: rgb(159, 164, 30);
+    color: rgb(255, 246, 194);
 }
 
 .star-hero-image {
     background-image:
     url("../img/star/star-hero.png");
     background-position: center;
-    background-color: rgb(255, 255, 142);
+    background-color: rgb(5, 3, 33);
     
+}
+
+.carousel-myimage {
+    max-height: 850px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
 }
 
 .hero {
@@ -35,7 +42,17 @@
 }
 
 .subsection2 {
-    background-color:rgb(241, 255, 193);
+    background-color:rgb(255, 246, 194);
+    padding-left: 10px;
+    max-height: 900px;
+}
+
+.constellations-text {
+    padding: 0 10px 10px 20px;
+}
+
+.constellations-text h1 {
+    color: rgb(5, 3, 33)
 }
 
 .subsection3 {
@@ -58,11 +75,11 @@
 }
 
 .subsection p {
-    color:rgb(255, 251, 230)
+    color:rgb(255, 251, 230);
 }
 
 .text-subsection {
-    padding: 0 0 10px 50px;
+    padding: 0 0 10px 6%;
     width: 500px;
 }
 
