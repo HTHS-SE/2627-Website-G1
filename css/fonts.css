@@ -4,9 +4,19 @@
 
 }
 
-.title {
-    font-family: Space Grotesk;
+@font-face {
+    font-family: BBH Bartle;
+    src: url("../assets/Head.ttf");
 }
+
+.title {
+    font-family: BBH Bartle;
+}
+
+.subtitle {
+    font-family: Space Grotesk, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 
 ::selection{
     background: rgba(136, 154, 255, 0.712);
