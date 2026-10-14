@@ -68,10 +68,10 @@ nav {
 .body {
     background-color: rgb(18, 0, 60);
     background-image:
-        linear-gradient(rgba(0, 6, 46, 0.75), 
-        rgba(25, 0, 53, 0.742), 
+        linear-gradient(rgba(0, 4, 31, 0.75), 
+        rgba(22, 8, 30, 0.742), 
         rgba(64, 0, 32, 0.65), 
-        rgba(172, 66, 100, 0.317)), 
+        rgba(176, 41, 41, 0.317)), 
         url("../img/main/back.png");
 
 }
@@ -86,4 +86,17 @@ nav {
 
 h1.subtitle {
     color: rgb(255, 228, 159);
+}
+
+p.general {
+    color: white;
+}
+
+
+.footer {
+    background-color:rgb(4, 0, 44);
+}
+
+.gradient {
+    background: linear-gradient(180deg,  #dbdbdb,rgb(4, 0, 44) );
 }
