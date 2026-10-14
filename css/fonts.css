@@ -22,6 +22,13 @@
     background: rgba(136, 154, 255, 0.712);
 }
 
+.general {
+    font-family: Space Grotesk, 'Courier New', Courier, monospace;
+}
+
+a {
+    color:rgb(254, 128, 128);
+}
 
 /*began working on font file, add a blobby font for headings 
 and a sharper grotesk font for main text, 

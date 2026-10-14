@@ -13,6 +13,11 @@ nav {
     margin-left: 10px;
     margin-right: 10px;
     color: #dbdbdb;
+    font-family: Space Grotesk, monospace;
+}
+
+.nav-menu-item:hover {
+    color: white;
 }
 
 /* Animations */
@@ -68,10 +73,10 @@ nav {
 .body {
     background-color: rgb(18, 0, 60);
     background-image:
-        linear-gradient(rgba(0, 6, 46, 0.75), 
-        rgba(25, 0, 53, 0.742), 
+        linear-gradient(rgba(0, 4, 31, 0.75), 
+        rgba(22, 8, 30, 0.742), 
         rgba(64, 0, 32, 0.65), 
-        rgba(172, 66, 100, 0.5)), 
+        rgba(176, 41, 41, 0.317)), 
         url("../img/main/back.png");
 
 }
@@ -79,7 +84,29 @@ nav {
 .boxy {
     background-image:
         linear-gradient( rgba(30, 0, 11, 0.89), 
-        rgba(81, 0, 0, 0.697), 
+        rgba(45, 0, 0, 0.697), 
         rgba(64, 0, 32, 0.65), 
-        rgba(172, 66, 66, 0.5));
+        rgba(200, 54, 28, 0.5));
+}
+
+h1.subtitle {
+    color: rgb(255, 228, 159);
+}
+
+p.general {
+    color: white;
+}
+
+
+.footer {
+    background-color:rgb(4, 0, 44);
+}
+
+.gradient {
+    background: linear-gradient(180deg,  #dbdbdb,rgb(4, 0, 44) );
+}
+
+
+.rover {
+    filter: drop-shadow(0px 10px 15px rgba(139, 56, 56, 0.637));
 }
