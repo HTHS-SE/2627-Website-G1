@@ -13,6 +13,11 @@ nav {
     margin-left: 10px;
     margin-right: 10px;
     color: #dbdbdb;
+    font-family: Space Grotesk, monospace;
+}
+
+.nav-menu-item:hover {
+    color: white;
 }
 
 /* Animations */
@@ -99,4 +104,9 @@ p.general {
 
 .gradient {
     background: linear-gradient(180deg,  #dbdbdb,rgb(4, 0, 44) );
+}
+
+
+.rover {
+    filter: drop-shadow(0px 10px 15px rgba(139, 56, 56, 0.637));
 }
