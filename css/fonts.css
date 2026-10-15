@@ -14,6 +14,10 @@
     src: url("../assets/Text2.ttf");
 }
 
+html {
+
+}
+
 .title {
     font-family: Zen Dots, Space Grotesk, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

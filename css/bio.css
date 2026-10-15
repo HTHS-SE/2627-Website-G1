@@ -23,7 +23,7 @@ body {
 }
 
 nav {
-    background: linear-gradient(90deg, #1b2d6b, #4e1d5d);
+    background: linear-gradient(90deg, #071546, #450620);
     color: #dbdbdb;
 }
 
@@ -33,7 +33,13 @@ nav {
     margin-left: 10px;
     margin-right: 10px;
     color: #dbdbdb;
+    font-family: Space Grotesk, monospace;
 }
+
+.nav-menu-item:hover {
+    color: white;
+}
+
 
 /* Animations */
 #chart-wrapper {
@@ -80,4 +86,14 @@ nav {
         rgba(172, 66, 66, 0.5)), 
         url("../img/main/back.png");
 
+}
+
+footer:after {
+    content: "";
+    height: 1em;
+    width: 100%;
+    background: #450620;
+    left:0;
+    bottom:0;
+    position: fixed;
 }
