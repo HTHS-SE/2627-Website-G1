@@ -15,6 +15,8 @@
     background: linear-gradient(180deg, #dcfaffff, rgb(4, 0, 44));
 }
 
+
+
 .hero-image {
     background-image:
         linear-gradient(180deg,
@@ -26,12 +28,6 @@
     background-repeat: no-repeat;
 }
 
-.lower {
-    justify-content: flex-end;
-    margin-bottom: 10%;
-    margin-top: 30%;
-}
-
 nav {
     background: linear-gradient(90deg, #071546, #2c0c57);
     color: #dbdbdb;
@@ -41,7 +37,6 @@ nav {
     margin-top: 0;
     margin-bottom: 0;
     align-items: center;
-    height: 498px;
     background-color: #dcfaffff;
     color: rgb(9, 17, 75);
 }
@@ -51,6 +46,19 @@ nav {
     justify-content: center;
     background-color:#f5f4db;
     padding: 10px;
+    color:#071546
+}
+
+footer::after {
+  content: "";
+  height: 1em;
+  width: 100%;
+  background: #51358eb9;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  animation: expand;
+  animation-timeline: scroll();
 }
 
 /* ------------------test------------------ */
@@ -99,7 +107,7 @@ nav {
         outline: 1px solid light-dark(rgba(0 0 0 / .25), rgba(255 255 255 / .5));
         outline-offset: 10px;
         color: white;
-        display: grid;
+        display: flex;
 
 
         &:has(#card-1:checked) {
@@ -247,10 +255,13 @@ nav {
             & ul {
                 margin-block: 0;
                 font-weight: 300;
+                padding: 1.25rem;
                 padding-inline-start: 1rem;
                 display: grid;
                 gap: .5rem;
                 place-content: start;
+                font-size: 1.375rem;
+                line-height: 2rem;
             }
 
             & li {
@@ -340,18 +351,18 @@ nav {
         scroll-timeline: --page-scroll vertical;
         /* Firefox supports the older "vertical" syntax */
     }
+}
 
-    body {
+body {
         background-color: light-dark(var(--bg-light), var(--bg-dark));
         color: light-dark(var(--txt-light), var(--txt-dark));
         min-height: 100svh;
         margin: 0;
         padding: 1rem 2rem;
         font-family: 'Space Grotesk', sans-serif;
-        font-size: 1.8rem;
-        line-height: 2.5;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
         display: grid;
         place-content: center;
         gap: 1rem;
     }
-}
