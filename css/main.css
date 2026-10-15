@@ -115,8 +115,19 @@ nav {
   );
 }
 
+h1.title {
+    filter: drop-shadow(1px 1px 10px #ff6725b6);
+}
+
 h1.subtitle {
   color: rgb(255, 228, 159);
+  filter: drop-shadow(1px 1px 10px #ff6725b6);
+}
+
+h2.subtitle {
+    font-family: Space Grotesk, 'Courier New', Courier, monospace;
+    color: rgb(251, 108, 83);
+    filter: drop-shadow(1px 1px 10px #ff7125b6);
 }
 
 p.general {
@@ -155,3 +166,6 @@ footer::after {
     width: 100%;
   }
 }
+
+
+
