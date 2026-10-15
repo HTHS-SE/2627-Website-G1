@@ -22,11 +22,17 @@
 }
 
 .heading-font-color {
-    color: rgb(255, 236, 132);
+    color: rgb(255, 240, 153);
 }
 
 .subheading-font-color {
     color: white;
+}
+
+.hr-line {
+    border: 5px solid rgba(255, 240, 153, 1);
+    width: 100%;
+    margin: auto;
 }
 
 /* First Subsection */
@@ -99,6 +105,13 @@
     background-color:rgb(37, 39, 74);
     color: rgb(254, 255, 237);
     border-color: rgb(255, 246, 194);
+}
+
+.star-img {
+    max-height: 850px;
+    min-width: 40%;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 /* Fourth Subsetion */
