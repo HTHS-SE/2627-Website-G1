@@ -9,12 +9,21 @@
     src: url("../assets/Head.ttf");
 }
 
+@font-face {
+    font-family: Zen Dots;
+    src: url("../assets/Text2.ttf");
+}
+
+html {
+
+}
+
 .title {
-    font-family: BBH Bartle;
+    font-family: Zen Dots, Space Grotesk, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .subtitle {
-    font-family: Space Grotesk, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: Zen Dots,Space Grotesk, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 

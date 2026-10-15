@@ -1,152 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!--Basic Head Information-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>AD ASTRA | Life in the Cosmos</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="icon" type="image/x-icon" href="img/main/favicon.png" />
 
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/bio.css">
-</head>
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/bio.css" />
+  </head>
 
-<body class="body">
+  <body class="body">
     <div class="container-lg min-vh-100">
+      <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
+          <div class="container">
+            <a href="index.html" class="navbar-brand">
+              <!-- Website Brand -->
+              <img
+                src="img/main/favicon.png"
+                alt="Ad Astra Logo"
+                class="d-inline-block align-text-top"
+                height="50"
+              />
+            </a>
 
+            <!-- Hamburger Menu Button-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navmenu"
+            >
+              <span class="navbar-toggler-icon"> </span>
+            </button>
 
-        <header>
-            <!--Navbar-->
-            <nav class="navbar navbar-expand-lg nav-background-color">
-                <div class="container">
-                    <a href="index.html" class="navbar-brand"> <!-- Website Brand -->
-                        <img src="img/main/favicon.png" alt="Ad Astra Logo" class="d-inline-block align-text-top"
-                            height="50">
-
-                    </a>
-
-                    <!-- Hamburger Menu Button-->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                        <span class="navbar-toggler-icon">
-
-                        </span>
-                    </button>
-
-                    <!-- Collapble navbar menu with custom hover underline CSS animation-->
-                    <div class="collapse navbar-collapse" id="navmenu"> <!-- Links to hamburger -->
-                        <ul class="navbar-nav ms-auto"> <!-- ms auto provides auto margin spacing -->
-                            <li class="nav-item">
-                                <a href="star.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Astrometry</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="phys.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Astrophysics</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="bio.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Astrobiology</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="about.html" class="nav-link hover-underline-animation nav-menu-item">About</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <section class="showcase text-light p-2 text-center hero-image">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-0 p-0 d-flex align-items-center">
-                        <div class="container" style="margin: 150px">
-                            <h2 class="subtitle"><em>Life in the Cosmos</em></h2>
-                            <h1 class="display-4 title">
-                                Astrobiology
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+            <!-- Collapble navbar menu with custom hover underline CSS animation-->
+            <div class="collapse navbar-collapse" id="navmenu">
+              <!-- Links to hamburger -->
+              <ul class="navbar-nav ms-auto">
+                <!-- ms auto provides auto margin spacing -->
+                <li class="nav-item">
+                  <a
+                    href="star.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >Astrometry</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="phys.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >Astrophysics</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="bio.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >Astrobiology</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="about.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >About</a
+                  >
+                </li>
+              </ul>
             </div>
-        </section>
-        <section class="overview text-dark p-2 text-left">
-            <!--Overview-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 p-3">
-                        <img src="img/dissection.png" alt="Dissection of a Drosophila Sample" class="img-fluid" />
-                    </div>
-                    <div class="col-sm-8 p-3">
-                        <h1 class="overview-right-padding title">What is Astrobiology?</h1>
-                        <!--overview-left-padding - custom padding left side-->
-                        <p class="lead overview-font overview-right-padding">
-                            Astrobiology
-                        </p>
-                    </div>
-                </div>
+          </div>
+        </nav>
+      </header>
 
-                <div class="row">
-                    <div class="col-sm-8 p-3">
-                        <h1 class="overview-left-padding title">Rover #1</h1>
-                        <!--overview-left-padding - custom padding left side-->
-                        <p class="lead overview-font overview-right-padding new-font">
-                            As classic phthalates are historically known for causing
-                            endocrine disruptions and PET / terephthalate-plastics are used
-                            as their replacements, there may have been a correlation in how
-                            they affected the endocrine system.
-                            <em>Drosophila melanogaster</em> was chosen as a model organism
-                            due to how similar its reproductive structures are to that of
-                            humans, with somatic and germline stem cells. There is a
-                            research gap as well, in our understanding of women with PCOS:
-                            this includes how their disorder comes to be, how it may carry
-                            through generations, and how epigenetics may influence it. This
-                            experiment explored the intersection of these fields.
-                        </p>
-                    </div>
-                    <div class="col-sm-4 p-3">
-                        <img src="img/microscope.png" alt="Ovaries under a microscope with scale" class="img-fluid" />
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-4 p-3">
-                        <img src="img/future.png" alt="Diagram of ovarian cells in non-PCOS  vs PCOS models"
-                            class="img-fluid" />
-                    </div>
-                    <div class="col-sm-8 p-3">
-                        <h1 class="overview-left-padding title">Rover #2</h1>
-                        <!--overview-left-padding - custom padding left side-->
-                        <p class="lead overview-font overview-left-padding new-font">
-                            lorem ipsum ipsum yolo random ipsum ipsum
-                        </p>
-                    </div>
-                </div>
+      <section class="showcase text-light p-2 text-center hero-image">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-0 p-0 d-flex align-items-center">
+              <div class="container" style="margin: 150px">
+                <h2 class="subtitle"><em>Life in the Cosmos</em></h2>
+                <h1 class="display-4 title">Astrobiology</h1>
+              </div>
             </div>
-        </section>
-        <footer class="p-3 footer text-light text-center position-relative">
-            <div class="container">
-                <p class="lead">Copyright &copy; Software Engineering 2026</p>
-                <a href="#" class="position-absolute bottom-0 end-0 p-3">
-                    <i class="bi bi-arrow-up-circle h2 text-white"></i>
-                </a>
+          </div>
+        </div>
+      </section>
+      <section class="overview text-dark p-2 text-left">
+        <!--Overview-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 p-3">
+              <img
+                src="img/dissection.png"
+                alt="Dissection of a Drosophila Sample"
+                class="img-fluid"
+              />
             </div>
-        </footer>
+            <div class="col-sm-8 p-3">
+              <h1 class="overview-right-padding title">
+                What is Astrobiology?
+              </h1>
+              <!--overview-left-padding - custom padding left side-->
+              <p class="lead overview-font overview-right-padding">
+                Astrobiology
+              </p>
+            </div>
+          </div>
 
+          <div class="row">
+            <div class="col-sm-8 p-3">
+              <h1 class="overview-left-padding title">Rover #1</h1>
+              <!--overview-left-padding - custom padding left side-->
+              <p class="lead overview-font overview-right-padding new-font">
+                As classic phthalates are historically known for causing
+                endocrine disruptions and PET / terephthalate-plastics are used
+                as their replacements, there may have been a correlation in how
+                they affected the endocrine system.
+                <em>Drosophila melanogaster</em> was chosen as a model organism
+                due to how similar its reproductive structures are to that of
+                humans, with somatic and germline stem cells. There is a
+                research gap as well, in our understanding of women with PCOS:
+                this includes how their disorder comes to be, how it may carry
+                through generations, and how epigenetics may influence it. This
+                experiment explored the intersection of these fields.
+              </p>
+            </div>
+            <div class="col-sm-4 p-3">
+              <img
+                src="img/microscope.png"
+                alt="Ovaries under a microscope with scale"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4 p-3">
+              <img
+                src="img/future.png"
+                alt="Diagram of ovarian cells in non-PCOS  vs PCOS models"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-sm-8 p-3">
+              <h1 class="overview-left-padding title">Rover #2</h1>
+              <!--overview-left-padding - custom padding left side-->
+              <p class="lead overview-font overview-left-padding new-font">
+                lorem ipsum ipsum yolo random ipsum ipsum
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="p-3 footer text-light text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; Software Engineering 2026</p>
+          <a href="#" class="position-absolute bottom-0 end-0 p-3">
+            <i class="bi bi-arrow-up-circle h2 text-white"></i>
+          </a>
+        </div>
+      </footer>
     </div>
-</body>
-
-
-
+  </body>
 </html>
