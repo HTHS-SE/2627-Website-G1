@@ -5,14 +5,6 @@
     padding: 150px 5px 150px 5px;
 }
 
-.hero h1 {
-    font-size: 500%;
-}
-
-.hero h4 {
-    font-size: 200%;
-}
-
 .hero-image {
     background-image:
     url("../img/star/star-hero.png");
@@ -174,6 +166,27 @@ nav {
     color: #dbdbdb;
 }
 
+footer::after {
+  content: "";
+  height: 1em;
+  width: 100%;
+  background: hsla(51, 100%, 77%, 0.725);
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  animation: expand;
+  animation-timeline: scroll();
+}
+
+@keyframes expand {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
@@ -189,5 +202,15 @@ nav {
 }
     .little-blurb .card {
     background-color: rgba(24, 24, 38, 0.75);
+}
+}
+
+@media (min-width: 991px) {
+    .hero h1 {
+    font-size: 6em;
+}
+
+    .hero h4 {
+    font-size: 2em;
 }
 }
