@@ -129,7 +129,7 @@ h1.title {
 
 h1.subtitle {
   color: rgb(255, 228, 159);
-  filter: drop-shadow(1px 1px 10px #000000b6);
+  filter: drop-shadow(1px 1px 10px #e82f2fb6);
 }
 
 h2.subtitle {
