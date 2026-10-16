@@ -113,11 +113,19 @@
         <div class="container">
           <div class="row">
             <h1 class="subtitle" style="text-align: center; margin-top: 20px;">A Study on Astronomy</h1>
-              <h2 class="subtitle" style="text-align: center;"><em>To Infinity and Beyond</em></h2>
-            <div class="col-sm-7 p-3">
-          
-              
-              <p class="overview-right-padding general spaced">
+            <h2 class="subtitle" style="text-align: center;"><em>To Infinity and Beyond</em></h2>
+            <div id="carouselCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/main/car1.png" class="d-block w-100" alt="Constellations">
+        <div class="carousel-caption d-none d-md-block spaced">
+          <h5 class="title">What is Astronomy?</h5>
+            <p class="overview-right-padding general">
                 <a
                   href="https://astronomy.osu.edu/undergraduates/prospective/what-astronomy"
                   target="_blank"
@@ -129,7 +137,14 @@
                 Bang occurred approximately 13.8 billion years ago, to the very
                 spot that NASA’s telescopes may have been looking at mere
                 seconds ago. Astronomy itself is an observational science.
-                <br /><br />
+            </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/main/car2.png" class="d-block w-100" alt="Second constellation">
+        <div class="carousel-caption d-none d-md-block spaced">
+          <h5 class="title">How is it Studied?</h5>
+          <p class="overview-right-padding general">
                 <a
                   href="https://earthhow.com/what-is-astronomy/"
                   target="_blank"
@@ -141,22 +156,41 @@
                 of celestial bodies; astrobiology, and the exploration for life
                 that may exist in space; astrophysics, how the laws of physics
                 can be applied to study distant objects; and astrogeology, what
-                the physical materials in space are composed of. <br /><br />
-                There are
+                the physical materials in space are composed of.
+              </p>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/main/car3.png" class="d-block w-100" alt="Third constellation">
+      <div class="carousel-caption d-none d-md-block spaced">
+        <h5 class="title">How Do You Identify Astronomy Studies?</h5>
+        <p class="overview-right-padding general">There are
                 <a
                   href="https://www.ebsco.com/research-starters/astronomy-and-astrophysics/astronomy/"
                   target="_blank"
                   rel="noopener noreferrer"
                   >two types</a
                 >
-                of astronomy: theoretical and observational. In observational
+                of astronomy fields: theoretical and observational. In observational
                 astronomy, data is taken straight from space. In theoretical
                 astronomy, machine learning models and other algorithms are
                 created to predict the outcome of parts of astronomy.
               </p>
-            </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br><hr>
             
-          </div>
         <section class="cards-to-reveal">
         <div class="container">
           <br />
@@ -239,7 +273,9 @@
           <br>
 
         </div>
+        <br>
       </section>
+    
       <footer class="p-3 footer text-light text-center position-relative">
         <div class="container">
           <p class="lead">Copyright &copy; Software Engineering 2026</p>

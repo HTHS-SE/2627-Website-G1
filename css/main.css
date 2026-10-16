@@ -261,5 +261,10 @@ footer::after {
 }
 
 .spaced {
-  line-height: 1.75em;;
+  line-height: 1.75em;
+  background-color: #020c30bb;
+  margin: 30px auto 20px;
+  padding: 20px 15px;
+  border-radius: 20px;
+  font-size: 120%;
 }
