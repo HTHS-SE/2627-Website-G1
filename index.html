@@ -1,164 +1,230 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <!--Basic Head Information-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AD ASTRA | Astronomy</title>
 
-<head>
-  <!--Basic Head Information-->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AD ASTRA | Astronomy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="img/main/favicon.png" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/fonts.css" />
-  <link rel="icon" type="image/x-icon" href="img/main/favicon.png" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
-</head>
+  <body class="body">
+    <div class="container-lg min-vh-100">
+      <header>
+        <!--Navbar-->
+        <nav
+          class="navbar navbar-expand-lg nav-background-color"
+          data-bs-theme="dark"
+        >
+          <div class="container">
+            <a href="index.html" class="navbar-brand">
+              <!-- Website Brand -->
+              <img
+                src="img/main/favicon.png"
+                alt="Ad Astra Logo"
+                class="d-inline-block align-text-top"
+                height="50"
+              />
+            </a>
 
-<body class="body">
-  <div class="container-lg min-vh-100">
-    <header>
-      <!--Navbar-->
-      <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
-        <div class="container">
-          <a href="index.html" class="navbar-brand">
-            <!-- Website Brand -->
-            <img src="img/main/favicon.png" alt="Ad Astra Logo" class="d-inline-block align-text-top" height="50" />
-          </a>
+            <!-- Hamburger Menu Button-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navmenu"
+            >
+              <span class="navbar-toggler-icon"> </span>
+            </button>
 
-          <!-- Hamburger Menu Button-->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-            <span class="navbar-toggler-icon"> </span>
-          </button>
-
-          <!-- Collapble navbar menu with custom hover underline CSS animation-->
-          <div class="collapse navbar-collapse" id="navmenu">
-            <!-- Links to hamburger -->
-            <ul class="navbar-nav ms-auto">
-              <!-- ms auto provides auto margin spacing -->
-              <li class="nav-item">
-                <a href="star.html" class="nav-link hover-underline-animation nav-menu-item">Astrography</a>
-              </li>
-              <li class="nav-item">
-                <a href="phys.html" class="nav-link hover-underline-animation nav-menu-item">Astrophysics</a>
-              </li>
-              <li class="nav-item">
-                <a href="bio.html" class="nav-link hover-underline-animation nav-menu-item">Astrobiology</a>
-              </li>
-              <li class="nav-item">
-                <a href="about.html" class="nav-link hover-underline-animation nav-menu-item">About</a>
-              </li>
-            </ul>
+            <!-- Collapble navbar menu with custom hover underline CSS animation-->
+            <div class="collapse navbar-collapse" id="navmenu">
+              <!-- Links to hamburger -->
+              <ul class="navbar-nav ms-auto">
+                <!-- ms auto provides auto margin spacing -->
+                <li class="nav-item">
+                  <a
+                    href="star.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >Astrography</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="phys.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >Astrophysics</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="bio.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >Astrobiology</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="about.html"
+                    class="nav-link hover-underline-animation nav-menu-item"
+                    >About</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
-    <section class="showcase text-light p-2 text-center hero-image">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-0 p-0 d-flex align-items-center">
-            <div class="container" style="margin: 150px">
-              <h2 class="general topper"><em>AD ASTRA | To the Stars</em></h2>
-              <h1 class="display-4 title topper colour">Astronomy</h1>
+        </nav>
+      </header>
+      <section class="showcase text-light p-2 text-center hero-image">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-0 p-0 d-flex align-items-center">
+              <div class="container" style="margin: 150px">
+                <h2 class="general topper"><em>AD ASTRA | To the Stars</em></h2>
+                <h1 class="display-4 title topper colour">Astronomy</h1>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!--Content (information)-->
-    <section class="content boxy overview text-dark p-2 text-left">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 p-3">
-            <h1 class="subtitle">Astronomy</h1>
-            <h2 class="subtitle"><em>Science & Celestial Bodies</em></h2>
-            <p class="overview-right-padding general">
-              <a href="https://astronomy.osu.edu/undergraduates/prospective/what-astronomy" target="_blank"
-                rel="noopener noreferrer">Astronomy</a>
-              is the study of planets, stars, galaxies, and the entirety of
-              the universe! We start from the beginning of time, when the Big
-              Bang occurred approximately 13.8 billion years ago, to the very
-              spot that NASA’s telescopes may have been looking at mere
-              seconds ago. Astronomy itself is an observational science.
-              <br /><br />
-              <a href="https://earthhow.com/what-is-astronomy/" target="_blank" rel="noopener noreferrer">Astronomy</a>,
-              though studied through gamma rays, radiation, and other
-              remnants of celestial bodies, has a wide variety of subdivisions
-              beneath it. This includes sectors like astrometry, the mapping
-              of celestial bodies; astrobiology, and the exploration for life
-              that may exist in space; astrophysics, how the laws of physics
-              can be applied to study distant objects; and astrogeology, what
-              the physical materials in space are composed of. <br /><br />
-              There are
-              <a href="https://www.ebsco.com/research-starters/astronomy-and-astrophysics/astronomy/" target="_blank"
-                rel="noopener noreferrer">two types</a>
-              of astronomy: theoretical and observational. In observational
-              astronomy, data is taken straight from space. In theoretical
-              astronomy, machine learning models and other algorithms are
-              created to predict the outcome of parts of astronomy.
+      </section>
+      <!--Content (information)-->
+      <section class="content boxy overview text-dark p-2 text-left">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 p-3">
+              <h1 class="subtitle">Astronomy</h1>
+              <h2 class="subtitle"><em>Science & Celestial Bodies</em></h2>
+              <p class="overview-right-padding general">
+                <a
+                  href="https://astronomy.osu.edu/undergraduates/prospective/what-astronomy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Astronomy</a
+                >
+                is the study of planets, stars, galaxies, and the entirety of
+                the universe! We start from the beginning of time, when the Big
+                Bang occurred approximately 13.8 billion years ago, to the very
+                spot that NASA’s telescopes may have been looking at mere
+                seconds ago. Astronomy itself is an observational science.
+                <br /><br />
+                <a
+                  href="https://earthhow.com/what-is-astronomy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Astronomy</a
+                >, though studied through gamma rays, radiation, and other
+                remnants of celestial bodies, has a wide variety of subdivisions
+                beneath it. This includes sectors like astrometry, the mapping
+                of celestial bodies; astrobiology, and the exploration for life
+                that may exist in space; astrophysics, how the laws of physics
+                can be applied to study distant objects; and astrogeology, what
+                the physical materials in space are composed of. <br /><br />
+                There are
+                <a
+                  href="https://www.ebsco.com/research-starters/astronomy-and-astrophysics/astronomy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >two types</a
+                >
+                of astronomy: theoretical and observational. In observational
+                astronomy, data is taken straight from space. In theoretical
+                astronomy, machine learning models and other algorithms are
+                created to predict the outcome of parts of astronomy.
+              </p>
+            </div>
+            <div class="col-sm-4 p-3">
+              <img
+                src="img/main/astr_img.png"
+                alt="NGC 346 Hubble and Webb Observations"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="row astrography">
+            <h1 class="subtitle">Astrography</h1>
+            <h2 class="subtitle"><em>The Study of Stars</em></h2>
+            <p class="general">
+              Specifically, astrography is mapping or photography of celestial
+              bodies and their orbits. It includes their coordinates and any
+              methods used to map them, which has changed many times over the
+              years. Also referred to as uranography, it includes any naming and
+              referral to these planets, galaxies, or stars.
             </p>
           </div>
-          <div class="col-sm-4 p-3">
-            <img src="img/main/astr_img.png" alt="NGC 346 Hubble and Webb Observations" class="img-fluid" />
+          <div class="row astrobiology">
+            <h1 class="subtitle">Astrobiology</h1>
+            <h2 class="subtitle"><em>Life in the Cosmos</em></h2>
+            <p class="general">
+              <a
+                href="https://astrobiology.nasa.gov/about/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Astrobiology</a
+              >
+              is the study of life in space! Scientists use precise mathematical
+              algorithms and space experiments to locate the origin of where
+              life may be in other galaxies or bodies in our own solar system.
+              This has been supported by
+              <a
+                href="https://science.nasa.gov/astrobiology/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >expeditions</a
+              >
+              by the Europa Clipper; Mars 2020: Perseverance; OSIRIS-REx; and
+              the Habitable Worlds Observatory.
+            </p>
+          </div>
+          <div class="row astrophysics">
+            <h1 class="subtitle">Astrophysics</h1>
+            <h2 class="subtitle"><em>Science & Celestial Bodies</em></h2>
+            <p class="general">
+              Astrophysics is the application of physical sciences to celestial
+              bodies. Scientists apply the laws of physics, such as gravity,
+              nuclear physics, thermodynamics, and even quantum physics to
+              analyze the behavior of various objects. Researchers in this field
+              look at objects like dark matter, exoplanets, and much more.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-sm-8 p-3">
+              <img
+                src="img/main/rover.png"
+                alt="NGC 346 Hubble and Webb Observations"
+                class="img-fluid rover"
+              />
+            </div>
           </div>
         </div>
-        <div class="row astrography">
-          <h1 class="subtitle">Astrography</h1>
-          <h2 class="subtitle"><em>The Study of Stars</em></h2>
-          <p class="general">
-            Specifically, astrography is mapping or photography of celestial
-            bodies and their orbits. It includes their coordinates and any
-            methods used to map them, which has changed many times over the
-            years. Also referred to as uranography, it includes any naming and
-            referral to these planets, galaxies, or stars.
-          </p>
+      </section>
+      <footer class="p-3 footer text-light text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; Software Engineering 2026</p>
+          <a href="#" class="position-absolute bottom-0 end-0 p-3">
+            <i class="bi bi-arrow-up-circle h2 text-white"></i>
+          </a>
         </div>
-        <div class="row astrobiology">
-          <h1 class="subtitle">Astrobiology</h1>
-          <h2 class="subtitle"><em>Life in the Cosmos</em></h2>
-          <p class="general">
-            <a href="https://astrobiology.nasa.gov/about/" target="_blank" rel="noopener noreferrer">Astrobiology</a>
-            is the study of life in space! Scientists use precise mathematical
-            algorithms and space experiments to locate the origin of where
-            life may be in other galaxies or bodies in our own solar system.
-            This has been supported by
-            <a href="https://science.nasa.gov/astrobiology/" target="_blank" rel="noopener noreferrer">expeditions</a>
-            by the Europa Clipper; Mars 2020: Perseverance; OSIRIS-REx; and
-            the Habitable Worlds Observatory.
-          </p>
-        </div>
-        <div class="row astrophysics">
-          <h1 class="subtitle">Astrophysics</h1>
-          <h2 class="subtitle"><em>Science & Celestial Bodies</em></h2>
-          <p class="general">
-            Astrophysics is the application of physical sciences to celestial
-            bodies. Scientists apply the laws of physics, such as gravity,
-            nuclear physics, thermodynamics, and even quantum physics to
-            analyze the behavior of various objects. Researchers in this field
-            look at objects like dark matter, exoplanets, and much more.
-          </p>
-        </div>
-        <div class="row">
-          <div class="col-sm-8 p-3">
-            <img src="img/main/rover.png" alt="NGC 346 Hubble and Webb Observations" class="img-fluid rover" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="p-3 footer text-light text-center position-relative">
-      <div class="container">
-        <p class="lead">Copyright &copy; Software Engineering 2026</p>
-        <a href="#" class="position-absolute bottom-0 end-0 p-3">
-          <i class="bi bi-arrow-up-circle h2 text-white"></i>
-        </a>
-      </div>
-    </footer>
-  </div>
-</body>
-
+      </footer>
+    </div>
+  </body>
 </html>

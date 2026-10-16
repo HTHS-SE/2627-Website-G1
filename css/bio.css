@@ -145,7 +145,6 @@ h2.subtitle {
   filter: drop-shadow(1px 1px 20px #ff7125b6);
 }
 
-
 @media (max-width: 900px) {
   .topper {
     text-align: center;
@@ -155,7 +154,7 @@ h2.subtitle {
   }
 }
 
-@media (min-width:1000px){
+@media (min-width: 1000px) {
   h1.topper {
     font-size: 5em;
   }
