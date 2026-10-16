@@ -4,7 +4,7 @@ Modifying cards
 
 .about {
   margin: auto;
-  background-color: rgb(26, 0, 60);
+  background-color: rgb(192, 161, 232);
   border: 1px solid rgb(141, 129, 229);
   transition:
     transform 0.3s ease,
@@ -15,7 +15,6 @@ Modifying cards
   transform: scale(1.035);
   box-shadow: 0px 0px 15px rgba(255, 160, 92, 0.656);
 }
-
 
 /*Fixing subheadings to font color and size*/
 h4.title {

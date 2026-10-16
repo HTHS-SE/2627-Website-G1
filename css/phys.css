@@ -5,6 +5,7 @@
 .dark-energy {
     color: white;
     background-color: rgb(4, 0, 44);
+    padding: 0px;
 }
 
 .footer {
@@ -15,7 +16,13 @@
     background: linear-gradient(180deg, #dcfaffff, rgb(4, 0, 44));
 }
 
+.gradient2 {
+    background: linear-gradient(180deg, rgb(4, 0, 44), #f5f4db);
+}
 
+h1.shadow {
+    filter: drop-shadow(1px 1px 10px #4b4ee7b6);
+}
 
 .hero-image {
     background-image:
@@ -39,6 +46,13 @@ nav {
     align-items: center;
     background-color: #dcfaffff;
     color: rgb(9, 17, 75);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.shadow {
+    border-radius: 15px;    
+    filter: drop-shadow(0px 0px 10px #b8b9f4b6);
 }
 
 .black-hole {
@@ -61,7 +75,7 @@ footer::after {
   animation-timeline: scroll();
 }
 
-/* ------------------test------------------ */
+/* ------------------black hole card------------------ */
 @layer base, demo;
 
 @layer demo {
@@ -260,8 +274,8 @@ footer::after {
                 display: grid;
                 gap: .5rem;
                 place-content: start;
-                font-size: 1.375rem;
-                line-height: 2rem;
+                font-size: 1rem;
+                line-height: 1.5rem;
             }
 
             & li {
@@ -358,10 +372,10 @@ body {
         color: light-dark(var(--txt-light), var(--txt-dark));
         min-height: 100svh;
         margin: 0;
+        padding: 1rem 2rem;
         font-family: 'Space Grotesk', sans-serif;
         font-size: 1.25rem;
         line-height: 1.75rem;
         display: grid;
         place-content: center;
-        gap: 1rem;
-    }
+}
