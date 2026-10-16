@@ -30,7 +30,7 @@
             <!--Navbar-->
             <nav class="navbar navbar-expand-lg nav-background-color">
                 <div class="container">
-                    <a href="#" class="navbar-brand"> <!-- Website Brand -->
+                    <a href="index.html" class="navbar-brand"> <!-- Website Brand -->
                         <img src="img/main/favicon.png" alt="Ad Astra Logo" class="d-inline-block align-text-top"
                             height="50">
 
@@ -48,7 +48,7 @@
                         <ul class="navbar-nav ms-auto"> <!-- ms auto provides auto margin spacing -->
                             <li class="nav-item">
                                 <a href="star.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Astrometry</a>
+                                    class="nav-link hover-underline-animation nav-menu-item">Astrography</a>
                             </li>
                             <li class="nav-item">
                                 <a href="phys.html"
@@ -75,14 +75,16 @@
             <br>
         </section>
         <hr class="hr-line">
+
         <!-- First Subsection: The Sun -->
         <div class="subsection">
             <div class="container text-wrap">
                 <div class="row row-cols-2 g-0">
-                    <div class="col-lg-8 px-0 p-3">
+                    <!-- Text content of this portion -->
+                    <div class="col-lg-6 px-0 p-3">
                         <div class="text-subsection">
                             <br>
-                            <h3><strong>The Sun is Also a Star</strong></h3>
+                            <h3 class="hover-underline-animation"><strong>The Sun is Also a Star</strong></h3>
                             <h6><em>how stars use nuclear fusion to make energy</em></h6>
                             <br>
                             <p class="general">How do stars produce energy? We know that the sun
@@ -94,20 +96,28 @@
                                 <br>amount of energy through nuclear fusion.
                                 <br>
                                 <br>The sun is made of plasma (which can also be found 
-                                <br>in our bloodstreams) and has many freely moving 
+                                <br>in our bloodstream) and has many freely moving 
                                 <br>electrons within it. These freely moving electrons can
                                 <br>create positively charged nuclei, which then collide
                                 <br>into one another. This produces energy through a
                                 <br>process know as nuclear fusion. Using Einstein's
-                                <br>famous equation, e = m * c ^ 2, we are able to see how 
-                                <br>the sun converts tiny amounts of matter into energy 
-                                <br>through a factor of the speed of light squared.
+                                <br>famous equation, e = m * c ^ 2, we are able to see 
+                                <br>how the sun is able to convert tiny amounts of matter 
+                                <br>into energy through a factor of the speed of light 
+                                <br>squared.
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 px-0 py-5">
+                    <!-- Images to the right of the text -->
+                    <div class="col-lg-6 px-0 py-5">
                         <img src="img/star/sun-realistic.png" alt="Image of a Sun" class="img-fluid d-none d-md-block"
                             width="325px" align="right">
+                        <img src="img/star/star-realistic.png" alt="Image of a star" class="img-fluid d-none d-md-block"
+                            width="75px" align="right" style="padding: 10px 0 0 10px;">
+                        <img src="img/star/star-realistic.png" alt="Image of a star" class="img-fluid d-none d-md-block"
+                            width="200px" align="left" style="padding: 70px 40px 0 40px;">
+                        <img src="img/star/star-realistic.png" alt="Image of a star" class="img-fluid d-none d-md-block"
+                            width="120px" align="right" style="padding: 120px 30px 0 0;">
                     </div>
                 </div>
             </div>
@@ -120,6 +130,7 @@
                     <!-- Carousel of images -->
                     <div class="col-lg-7 col-md-12 px-0 p-3 star-height">
                         <div id="star-images" class="carousel slide" data-bs-ride="carousel">
+                            <!-- Adds the indicators at the bottom of the images for each slide -->
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#star-images" data-bs-slide-to="0" class="active"
                                     aria-current="true" aria-label="Slide 1"></button>
@@ -136,6 +147,7 @@
                                 <button type="button" data-bs-target="#star-images" data-bs-slide-to="6"
                                     aria-label="Slide 7"></button>
                             </div>
+                            <!-- Adds the images the carousel -->
                             <div class="carousel-inner carousel-myimage">
                                 <div class="carousel-item active">
                                     <img src="img/star/aquarius.jpg" alt="Image of Aquarius" class="d-block w-100">
@@ -160,6 +172,7 @@
                                     <img src="img/star/ursa-minor.jpg" alt="Image of Ursa Minor" class="d-block w-100">
                                 </div>
                             </div>
+                            <!-- Adds the previous and next buttons to the left and right sides of the caruosel -->
                             <button class="carousel-control-prev" type="button" data-bs-target="#star-images"
                                 data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -176,7 +189,7 @@
                     <!-- Caption for the Carousel -->
                     <div class="col-lg-5 col-md-12 px-0 p-0">
                         <div class="constellations-text general">
-                            <h2><strong>Pictures in the Sky</strong></h2>
+                            <h2 class="hover-underline-animation-blue"><strong>Pictures in the Sky</strong></h2>
                             <h5><em>constellations and their origins</em></h5>
                             <br>
                             <p>
@@ -191,14 +204,14 @@
                                 According to the story, Orion was a famous hunter who bragged he could kill any animal
                                 alive. The Earth goddess, Gaia, sent a scorpian to attack him, and Orion was killed. 
                                 However, the gods were saddened by Orion's death, so they placed him and the scorpian
-                                in the sky to remember forever
+                                in the sky to remember forever.
 
                                 <br><br>Many of the constellation names we use originate from Greek, Roman, or Egyptian 
-                                stories, but the ancient Chinese and Inca civilizations used the four seasons to 
-                                group stars. They made images of animals from the different stars, which were typically
-                                smaller (3 or so stars) than the ones we usually look for. Constellations come from
+                                stories, but the ancient Chinese and Inca civilizations also made up names. Unlike the Grecians, they used the four seasons to 
+                                group stars rather than mythology. They also made images of animals from the different lights, which were typically
+                                smaller (3 or so stars) than the ones we look for in modern day. Constellations come from
                                 everywhere, and belong to the entire sky. Oftentimes they can look like different images
-                                accross regions, and there can be many stories associated with the set of stars
+                                in different regions, and there can be many stories associated with the set of stars.
                             </p>
                         </div>
                     </div>
@@ -209,6 +222,7 @@
 
         <!-- Third Subsection: names of stars -->
         <div class="subsection3">
+            <!-- If the screen size gets too small, it resizes everything to only one card per row -->
             <div class="row row-cols-lg-3 row-cols-md-1 row-cols-sm-1 general">
                 <div class="col-lg-4 bottom-margin gy-4">
                     <div class="card about">
@@ -250,7 +264,7 @@
                             <h4 class="card-title">Alpha Centauri</h4>
                             <p class="card-text roboto">Also known as Rigil Kentaurus, Alpha Centauri is a system made
                                 up of three stars, one of which is the closest star to our sun. Alpha Centauri A is the
-                                third brightest star in the sky, Alpha Centauri B revolves around in an orbit of 80
+                                third brightest star in the sky, Alpha Centauri B revolves around it in an orbit of 80
                                 years, and Proxima Centauri is so small that it is hard to see without special
                                 equipment.</p>
                         </div>
@@ -280,7 +294,7 @@
                             <h4 class="card-title">Vega</h4>
                             <p class="card-text roboto">Also known as Alpha Lyrae, Vegais a part of the constellation
                                 Lyra and is the fifth brightest star in the sky. It is a white star, meaning that it is
-                                a higher temperature than our yellow sun, and Vega also has a ring of dust surrounding
+                                a higher temperature than our yellow sun, and has a ring of dust surrounding
                                 it that is roughly 100 billion miles long. Compared to other stars, Vega is very close
                                 to Earth,
                                 making it shine much brighter than other stars.
@@ -308,29 +322,33 @@
         <!-- Fourth Subsection: Supernovas-->
         <div class="subsection4">
             <div class="container my-gif">
+                <!-- Creates the card of text in the lower-left corner of the gif background -->
                 <div class="little-blurb">
                     <div class="card supernova-text">
                         <h2><strong>The Death of a Star</strong></h2>
                         <h5><em>supernovas and their causes</em></h5>
                         <br>
-                        <p class="general">Description of supernovas in paragraph format, probably going to be pretty
-                            long.
-                            lorem ipsum dolor sit amet consectetur adipiscing elit omnis est labore cupidatat adipiscing
-                            vero sed similique sunt illum sit sunt nobis pariatur omnis cum cupidatat consectetur cum
-                            assumenda quibusdam facilis ut voluptas mollit
+                        <p class="general">Like all other things in the universe, stars live and die. Unlike other things, 
+                            however, when they die, it is through a giant explosion known as a supernova. These can be
+                            caused a few different ways, though stars can also die out through other methods. If a smaller
+                            star (around the size of our sun) simply runs out of the fuel needs to keep burning, it will turn
+                            into a white dwarf.
 
-                            <br><br>Paragraph on how they can produce energy, and how the explosion effects the planets
-                            or forms
-                            around it. lorem ipsum dolor sit amet consectetur adipiscing elit omnis est labore cupidatat
-                            adipiscing vero sed similique sunt illum sit sunt nobis pariatur omnis cum cupidatat
-                            consectetur cum assumenda quibusdam facilis ut voluptas mollit maxime aut cum ducimus quos
-                            iusto id id pariatur et cumque excepteur esse placeat magna nobis nam
+                            <br><br>Supernovas are seen as the last act of a star, as going supernova marks the end of the
+                            star's energy producing. The explosion releases an enormous amount of energy, launching radio 
+                            waves, X-rays, and cosmic rays out into space. Supernovae have two types, with the second
+                            being more well-known. When a star's core becomes too heavy, its produced elements begin to
+                            absorb rather than make energy. This causes the produced elements to build up and create a heavy
+                            center in the middle of the star. Eventually, it becomes too heavy for the star to support, making it unable to resist its own gravity.
+                            This causes the core to collapse in on itself. This collapse continues
+                            until nuclei and electrons are crushed into one heavy object, known as a neutron star. 
 
-                            <br><br>How supernovas are caused, what happens inside as they are happening, and our sun is
-                            going
-                            to explode in 5 billion year. lorem sunt illum sit sunt nobis pariatur omnis cum cupidatat
-                            consectetur cum assumenda quibusdam facilis ut voluptas mollit maxime aut cum ducimus quos
-                            iusto id id pariatur et cumque excepteur esse placeat magna nobis nam
+                            <br><br>Neutron stars are unimaginabely dense, with a mass of 1.5 to 2 times the mass of our sun
+                            packed into a 12 mile radius. When somethings hits this core, it generates a shock wave that is 
+                            strong enough to blow off the outer layers of the star, marking its death. The energy and light 
+                            produced from this process can be seen from light-years away, temporarily making it shine
+                            brighter than all the other stars in the sky. Mankind has been able to see the glad of supernovae in the past, though sometimes supernova do not produce their own light. If a type 2 supernova produces a core greater in 
+                            mass than 3 times our sun, it creates a black hole.
                         </p>
                     </div>
                 </div>
