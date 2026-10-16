@@ -5,6 +5,7 @@
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+  font-family: Space Grotesk, monospace;
 }
 .about:hover {
   transform: translateY(-8px);
@@ -14,6 +15,7 @@
 .about-team {
   color: #31183e;
   background-color: #5b14ab33;
+  font-family: Space Grotesk, monospace;
 }
 
 .about-us {
