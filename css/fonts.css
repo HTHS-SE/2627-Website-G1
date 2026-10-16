@@ -46,10 +46,12 @@
     sans-serif;
 }
 
+/*changes text highlight color*/
 ::selection {
   background: rgba(51, 146, 255, 0.712);
 }
 
+/*sets base font*/
 .general {
   font-family:
     Space Grotesk,
@@ -58,6 +60,7 @@
     monospace;
 }
 
+/*changes hyperlink color*/
 a {
   color: rgb(254, 128, 128);
 }
