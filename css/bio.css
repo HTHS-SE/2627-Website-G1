@@ -14,7 +14,7 @@
   background-color: rgb(76, 0, 255);
 }
 
-
+/*Setting general title information*/
 h1.title {
   filter: drop-shadow(1px 1px 10px #ff6725b6);
 }
@@ -106,6 +106,8 @@ footer::after {
   animation-timeline: scroll();
 }
 
+/*Adding footer animation*/
+
 @keyframes expand {
   from {
     width: 0%;
@@ -135,10 +137,13 @@ footer::after {
   );
 }
 
+/*Adjusting footer*/
 .footer {
   background-color: rgb(4, 0, 44);
 }
 
+
+/*Setting all title/subtitle information*/
 h1.title {
   filter: drop-shadow(1px 1px 10px #ff6725b6);
   color: rgb(255, 255, 255);

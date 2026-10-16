@@ -3,6 +3,7 @@
   src: url("../assets/Text.ttf");
 }
 
+/*Editing toggler icon*/
 .navbar-toggler-icon {
   background-image: url("../assets/stars.svg");
   filter: invert(100%);
@@ -14,6 +15,8 @@
   filter: invert(100%);
 }
 
+
+/*Setting new font faces*/
 @font-face {
   font-family: BBH Bartle;
   src: url("../assets/Head.ttf");

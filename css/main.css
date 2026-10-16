@@ -1,3 +1,7 @@
+/*
+Modifying cards
+*/
+
 .about {
   margin: auto;
   background-color: rgb(26, 0, 60);
@@ -12,6 +16,8 @@
   box-shadow: 0px 0px 15px rgba(255, 160, 92, 0.656);
 }
 
+
+/*Fixing subheadings to font color and size*/
 h4.title {
   color: rgb(255, 228, 159);
   filter: drop-shadow(1px 1px 10px #ff6725b6);
@@ -28,6 +34,7 @@ h5.general {
   filter: drop-shadow(1px 1px 5px #000000b6);
 }
 
+/*Modifying card buttons*/
 .click-me-twin {
   display: block;
   padding: 15px;
@@ -56,6 +63,7 @@ h5.general {
   );
 }
 
+/*Making image smaller*/
 .smaller {
   max-width: 50%;
   height: auto;
@@ -63,6 +71,7 @@ h5.general {
   margin: 15px auto 15px;
 }
 
+/*Adding in all background images*/
 .phys {
   background-image:
     linear-gradient(rgba(11, 0, 47, 0.407), rgba(85, 10, 10, 0.555)),
@@ -91,6 +100,7 @@ nav {
   color: #dbdbdb;
 }
 
+/*Editing nav menu items*/
 .nav-menu-item {
   /* navbar link text properties */
   font-size: 25px;
@@ -165,6 +175,8 @@ nav {
   background-color: rgb(63, 0, 210);
 }
 
+
+/*Adding in background colors and images*/
 .body {
   background-color: rgb(18, 0, 60);
   background-image:
@@ -186,6 +198,7 @@ nav {
   );
 }
 
+/*Adding in fonts and colors for main titles*/
 h1.title {
   filter: drop-shadow(1px 1px 10px #ff6725b6);
 }
@@ -238,6 +251,7 @@ footer::after {
   }
 }
 
+/*Handling text overflow*/
 @media (max-width: 900px) {
   .topper {
     text-align: center;
