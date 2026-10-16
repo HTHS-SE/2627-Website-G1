@@ -4,17 +4,31 @@ Modifying cards
 
 .about {
   margin: auto;
-  background-color: rgb(192, 161, 232);
+  background-color: rgb(232, 161, 194);
   border: 1px solid rgb(141, 129, 229);
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
   font-family: Space Grotesk, monospace;
 }
+
+.about-us {
+  background-color: rgb(235, 227, 245);
+  font-family: Space Grotesk, monospace;
+}
+
+.about-team {
+  background-color: rgb(233, 182, 198);
+  font-family: Space Grotesk, monospace;
+  font-weight: bold;
+  color:rgb(60, 0, 31)
+}
+
 .about:hover {
   transform: scale(1.035);
   box-shadow: 0px 0px 15px rgba(255, 160, 92, 0.656);
 }
+
 
 /*Fixing subheadings to font color and size*/
 h4.title {
