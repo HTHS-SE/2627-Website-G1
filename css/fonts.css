@@ -1,38 +1,65 @@
 @font-face {
-    font-family: Space Grotesk;
-    src: url("../assets/Text.ttf");
+  font-family: Space Grotesk;
+  src: url("../assets/Text.ttf");
+}
 
+.navbar-toggler-icon {
+  background-image: url("../assets/stars.svg");
+  filter: invert(100%);
+}
+
+.navbar-toggler-icon:hover {
+  filter: drop-shadow(1px 1px 20px gold);
+  background-image: url("../assets/stars.svg");
+  filter: invert(100%);
 }
 
 @font-face {
-    font-family: BBH Bartle;
-    src: url("../assets/Head.ttf");
+  font-family: BBH Bartle;
+  src: url("../assets/Head.ttf");
 }
 
 @font-face {
-    font-family: Zen Dots;
-    src: url("../assets/Text2.ttf");
+  font-family: Zen Dots;
+  src: url("../assets/Text2.ttf");
 }
 
 .title {
-    font-family: Zen Dots, Space Grotesk, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:
+    Zen Dots,
+    Space Grotesk,
+    "Gill Sans",
+    "Gill Sans MT",
+    Calibri,
+    "Trebuchet MS",
+    sans-serif;
 }
 
 .subtitle {
-    font-family: Zen Dots,Space Grotesk, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:
+    Zen Dots,
+    Space Grotesk,
+    "Gill Sans",
+    "Gill Sans MT",
+    Calibri,
+    "Trebuchet MS",
+    sans-serif;
 }
 
-
-::selection{
-    background: rgba(51, 146, 255, 0.712);
+::selection {
+  background: rgba(51, 146, 255, 0.712);
 }
 
 .general {
-    font-family: Space Grotesk, 'Courier New', Courier, monospace;
+  font-family:
+    Space Grotesk,
+    "Courier New",
+    Courier,
+    monospace;
 }
 
 a {
-    color:rgb(254, 128, 128);
+  color: rgb(254, 128, 128);
 }
 
 /*began working on font file, add a blobby font for headings 

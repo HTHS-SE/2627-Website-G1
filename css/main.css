@@ -25,7 +25,7 @@ body {
 }
 
 nav {
-  background: linear-gradient(90deg, #071546, #450620);
+  background: linear-gradient(90deg, #040d2d, #450620);
   color: #dbdbdb;
 }
 
@@ -38,6 +38,15 @@ nav {
   font-family:
     Space Grotesk,
     monospace;
+}
+
+.nav-menu-item:hover {
+  color: white;
+  filter: drop-shadow(1px 1px 5px gold);
+}
+
+.hero {
+  text-align: center;
 }
 
 .nav-menu-item:hover {
@@ -116,7 +125,7 @@ nav {
 }
 
 h1.title {
-    filter: drop-shadow(1px 1px 10px #ff6725b6);
+  filter: drop-shadow(1px 1px 10px #ff6725b6);
 }
 
 h1.subtitle {
@@ -125,9 +134,13 @@ h1.subtitle {
 }
 
 h2.subtitle {
-    font-family: Space Grotesk, 'Courier New', Courier, monospace;
-    color: rgb(251, 108, 83);
-    filter: drop-shadow(1px 1px 10px #ff7125b6);
+  font-family:
+    Space Grotesk,
+    "Courier New",
+    Courier,
+    monospace;
+  color: rgb(251, 108, 83);
+  filter: drop-shadow(1px 1px 10px #ff7125b6);
 }
 
 p.general {
@@ -167,5 +180,17 @@ footer::after {
   }
 }
 
+@media (max-width: 900px) {
+  .topper {
+    text-align: center;
+    margin-left: -45px;
+    margin-right: 0;
+    box-sizing: border-box;
+  }
+}
 
-
+@media (min-width: 1000px) {
+  h1.topper {
+    font-size: 5em;
+  }
+}
